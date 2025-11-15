@@ -24,12 +24,17 @@ def play_game():
             print(f"您已經猜了{count}")
                 
         else:
-            print("請輸入提示範圍內的數字") 
-    
+            print("請輸入提示範圍內的數字")
+
 def main():
-    while(true):    
-        play_game()
+    while(True):
+        play_game()    
         is_play_again = input("您還要繼續嗎?y,n")
         if is_play_again == 'n':
             break
+        
+
         print("遊戲結束")
+
+if __name__ == "__main__":
+    main()
