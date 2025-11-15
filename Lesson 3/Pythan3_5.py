@@ -1,7 +1,6 @@
 import random
 
 def play_game():
-   while(True):
     min = 1
     max = 100
     count = 0
@@ -25,7 +24,7 @@ def play_game():
             print(f"您已經猜了{count}")
                 
         else:
-            print("請輸入提示範圍內的數字") 
+        print("請輸入提示範圍內的數字") 
     
 def main():
     while(true):    
